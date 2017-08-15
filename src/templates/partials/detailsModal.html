@@ -1,0 +1,27 @@
+<div class="modal-sm-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-type="close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h4 class="modal-title">Subscriber info</h4>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-1 left-bar">
+        <span>Subscriber key</span>
+        <span>First name</span>
+        <span>Last name</span>
+        <span>Account number</span>
+      </div>
+      <div class="col-xs-6 right-bar">
+        <p><%- subscriber.get('key') %></p>
+        <p><%- subscriber.get('firstname') %></p>
+        <p><%- subscriber.get('lastname') %></p>
+        <p><%- subscriber.get('account') %></p>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default pull-right" data-type="close">Close</button>
+  </div>
+</div>

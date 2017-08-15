@@ -1,0 +1,36 @@
+module.exports.accounts = [{
+  key: '9876523',
+  firstname: 'Sviatoslava',
+  lastname: 'Glukhova',
+  account: '54-535-543'
+}, {
+  key: '98765341',
+  firstname: 'Svetlana',
+  lastname: 'Drozdova',
+  account: '43253-68758'
+}, {
+  key: '67543',
+  firstname: 'Irina',
+  lastname: 'Korchagina',
+  account: '98-12-43278'
+}, {
+  key: '027464093',
+  firstname: 'Alexey',
+  lastname: 'Osin',
+  account: '432-582-98'
+}, {
+  key: '2348903746',
+  firstname: 'Galina',
+  lastname: 'Kasatkina',
+  account: '43532-53422'
+}, {
+  key: '6776836989',
+  firstname: 'Nikolay',
+  lastname: 'Pankov',
+  account: '54-535-543'
+}, {
+  key: '5476788',
+  firstname: 'Andrey',
+  lastname: 'Savin',
+  account: '543-5346-22'
+}];

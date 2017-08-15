@@ -1,0 +1,15 @@
+<% _.each(subscribers, function(subscriber){ %>
+<tr data-itemid="<%= subscriber.get('key')%>">
+  <td><%- subscriber.get('key') %></td>
+  <td><%- subscriber.get('firstname') %></td>
+  <td><%- subscriber.get('lastname') %></td>
+  <td><%- subscriber.get('account') %></td>
+  <td>
+    <div class="pull-right">
+      <button type="button" class="btn btn-default" data-type="show">Show</button>
+      <button type="button" class="btn btn-info" data-type="edit">Edit</button>
+      <button type="button" class="btn btn-danger" data-type="delete">Delete</button>
+    </div>
+  </td>
+</tr>
+<% }); %>

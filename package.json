@@ -1,0 +1,40 @@
+{
+  "name": "rdStarterkitBeginner",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "body-parser": "~1.15.1",
+    "browser-sync": "~2.11.1",
+    "chalk": "~1.1.1",
+    "cors": "^2.7.1",
+    "del": "~2.0.2",
+    "express": "^4.14.0",
+    "gulp": "~3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-inject": "~3.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-size": "^2.0.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "~3.0.6",
+    "http-proxy": "^1.14.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2",
+    "run-sequence": "~1.1.5",
+    "underscore": "^1.8.3",
+    "wiredep": "^4.0.0",
+    "wrench": "^1.5.9"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

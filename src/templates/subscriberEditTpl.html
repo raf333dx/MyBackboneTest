@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <form class="col-xs-8 col-xs-offset-2 custom-form-control">
+      <span class="title text-uppercase">Subscriber</span>
+      <div class="form-group">
+        <label for="key">Subscriber key</label>
+        <input class="form-control" id="key" type="text" name="key" value="<%- subscriber.get('key') %>" />
+        <span class="help-block"></span>
+      </div>
+      <div class="form-group">
+        <label for="firstname">First name</label>
+        <input class="form-control" id="firstname" type="text" name="firstname" value="<%- subscriber.get('firstname') %>" />
+        <span class="help-block"></span>
+      </div>
+      <div class="form-group">
+        <label for="lastname">Last name</label>
+        <input class="form-control" id="lastname" type="text" name="lastname" value="<%- subscriber.get('lastname') %>" />
+        <span class="help-block"></span>
+      </div>
+      <div class="form-group">
+        <label for="account">Account number</label>
+        <input class="form-control" id="account" type="text" name="account" value="<%- subscriber.get('account') %>" />
+        <span class="help-block"></span>
+      </div>
+      <button type="button" class="btn btn-default" data-type="cancel">Cancel</button>
+      <button type="submit" class="btn btn-info" data-type="submit">Submit</button>
+      <% if(subscriber.get('key') !== '') { %>
+      <button type="button" class="btn btn-danger pull-right" data-type="delete">Delete</button>
+      <% }; %>
+    </form>
+  </div>
+</div>
+

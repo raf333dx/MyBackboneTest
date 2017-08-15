@@ -1,0 +1,15 @@
+<div class="modal-sm-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-type="close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h4 class="modal-title">Confirm action</h4>
+  </div>
+  <div class="modal-body">
+    <p>Are you sure you want to delete the subscriber "<%- subscriber.get('firstname') %>"</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-type="close">Close</button>
+    <button type="button" class="btn btn-danger" data-type="delete" data-id="<%- subscriber.get('key') %>">Delete</button>
+  </div>
+</div>
